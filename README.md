@@ -1,11 +1,14 @@
 # MyFirstToken
+This Solidity program MyfirstToken.sol, in this I have created a contract and inside that contract I have created a token named
+MISWA Token. 
 
 
-Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a two functions of a token which is burn and mint function which can increment balance of an
+address with value passed into the mint function and deduct token amount with the value passed in the burn function.
+
 
 ## Getting Started
 
@@ -18,7 +21,7 @@ An in-depth paragraph about your project and overview of use.
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol). Copy and paste the following code into the file:
 
 ```
 //SPDX-License-Identifier: MIT
@@ -28,9 +31,9 @@ pragma solidity ^0.8.15;
 
 /**
 Demo Assement
-1.Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., 
+1.The contract will have public variables that store the details about your coin (Token Name, Token Abbrv., 
   Total Supply)
-2.Your contract will have a mapping of addresses to balances (address => uint)
+2.The contract will have a mapping of addresses to balances (address => uint)
    You will have a mint function that takes two parameters: an address and a value. 
 3.The function then increases the total supply by that number and increases the balance of the address by that amount.
 4.Your contract will have a burn function, which works the opposite of the mint function, 
@@ -65,6 +68,11 @@ contract Mytoken {
     }
 }
 ```
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Once the contract is deployed, you can interact with it by calling the mint and burn function. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function. Finally, click on the "transact" button to execute the function 
 
 ## Help
 
