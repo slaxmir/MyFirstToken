@@ -3,19 +3,14 @@ This Solidity program MyfirstToken.sol, in this I have created a contract and in
 MISWA Token. 
 
 
-
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a two functions of a token which is burn and mint function which can increment balance of an
-address with value passed into the mint function and deduct token amount with the value passed in the burn function.
+This program is a simple contract written in Solidity,a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a two functions of a token which is burn and mint function which can increment balance of an
+address and the total supply with value passed into the mint function and deduct token amount and total supply with the value passed in the burn function.
 
 
 ## Getting Started
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
@@ -68,27 +63,11 @@ contract Mytoken {
     }
 }
 ```
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.15" (or another compatible version), and then click on the "Compile MyToken.sol" button.
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the mint and burn function. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function. Finally, click on the "transact" button to execute the function 
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Once the contract is deployed, you can interact with it by calling the mint and burn function. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and pass the address and value. Repeat the same process for the burn function too.You can the balance and total supply for after mint and burn functions tranacted Finally, click on the "transact" button to execute the function 
 
 
-## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
