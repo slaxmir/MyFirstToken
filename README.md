@@ -67,7 +67,7 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the mint and burn function. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and pass the address and value. Repeat the same process for the burn function too.You can the balance and total supply for after mint and burn functions tranacted Finally, click on the "transact" button to execute the function 
+Once the contract is deployed, you can interact with it by calling the mint and burn function. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function and pass the address and value. Repeat the same process for the burn function too.Finally, click on the "transact" button to execute the function You can the balance and total supply for after mint and burn functions tranacted. 
 
 
 
